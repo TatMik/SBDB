@@ -8,7 +8,6 @@ public class MySQLDataBase {
     public static final String CONN_STRING = "jdbc:mysql://localhost:3306/?user=root&password=Root&useLegacyDatetimeCode=false&serverTimezone=UTC";
     public Enumeration<Driver> drivers = DriverManager.getDrivers();
     public Connection conn = null;
-    public ArrayList<String> list = new ArrayList<>();
 
     //полкючение к MySQL server при создании объекта через JDBC коннектор
     public MySQLDataBase() {
